@@ -1,0 +1,33 @@
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+  color: #ECEFF4;
+  background: transparent;
+}
+
+#clock, #cpu, #memory, #temperature, #pulseaudio, #network, #battery {
+  background-color: #3B4252;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+#workspaces button.focused {
+  background-color: #5e81ac;
+  color: white;
+}
+
+### ~/.config/rofi/config.rasi
+
+configuration {
+  font: "JetBrainsMono Nerd Font 12";
+  location: 0;
+  fullscreen: false;
+  width: 30;
+}
+
+* {
+  background-color: #2e3440;
+  text-color: #d8dee9;
+  border: 0;
+}

@@ -1,0 +1,22 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "temperature",
+    "pulseaudio",
+    "network",
+    "battery",
+    "tray"
+  ],
+  "clock": {
+    "format": "%a %d %b %H:%M"
+  }
+}
